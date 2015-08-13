@@ -1,0 +1,23 @@
+{
+    "name":"Trivia Crack Prom",
+    "version":"1",
+    "description":"A Chrome extension that modifies the questions asked by Trivia Crack to always be a question asking someone to prom.",
+    "manifest_version": 2,
+    "incognito": "spanning",
+    "icons": { 
+        "16": "images/icons/icon16.png",
+        "48": "images/icons/icon48.png",
+        "128": "images/icons/icon.png"
+    },
+    "page_action":{
+        "default_title": "Trivia Crack Prom"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.preguntados.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+     }
+}

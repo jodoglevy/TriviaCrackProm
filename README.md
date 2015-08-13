@@ -5,6 +5,8 @@ Trivia Crack Prom
 
 A Chrome extension that modifies the questions asked by Trivia Crack to always be a question asking someone to prom. Learn more [here](http://jodoglevy.com/jobloglevy/going-to-prom-with-trivia-crack/).
 
+![Trivia Crack Prom](https://raw.githubusercontent.com/jodoglevy/TriviaCrackProm/master/images/screenshots/question.png)
+
 ### Install
 
 * Git clone this repository, or download and unzip using the 'Download Zip' button on the right of this page
